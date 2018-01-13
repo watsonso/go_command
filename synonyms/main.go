@@ -1,6 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"bufio"
+	"fmt"
+	"log"
+	"os"
+
+	"github.com/watsonso/go_command/thesaurus"
+)
 
 func main() {
 	apiKey := os.Getenv("BHT_APIKEY")
