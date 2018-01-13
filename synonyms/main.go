@@ -11,7 +11,7 @@ import (
 
 func main() {
 	apiKey := os.Getenv("BHT_APIKEY")
-	thesaurus := &thesaurus.BigHuge{APIKey: apiKey}
+	thesaurus := &thesaurus.BigHugh{APIKey: apiKey}
 	s := bufio.NewScanner(os.Stdin)
 	for s.Scan() {
 		word := s.Text()
